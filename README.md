@@ -1,20 +1,7 @@
-devkit-application-template
-===========================
+# template-scene
 
-Initial file structure for Gameclosure Devkit applications.
-
-Includes an empty folder structure that matches the devkit defaults
-and a minimal Application.js file with a "Hello, world!" text view.
-
-
-You can specify a different initial template for new devkit applications
-by adding the `--git-template` paramater to `devkit init` and passing in
-a path to a git repository.
-
-~~~
-devkit init newproject --git-template https://github.com/gameclosure/devkit-application-template
-~~~
-
+Great for developing devkit-scene examples!
+ 
 ### Development recomendation
 
 #### - Create the new project
@@ -44,7 +31,5 @@ It is recommended that you have a local copy somewhere else, and link in depende
 #### - Optional: Developing a devkit-scene exmaple
 The easiest way to do this is with a symlink.  For example, if you wanted to develop the Swarm example, you would run the following commands:
   
-    cd src
-    rm Application.js
-    ln -s ../modules/devkit-scene/examples/Swarm.js Application.js
+	./set-example Swarm
 
