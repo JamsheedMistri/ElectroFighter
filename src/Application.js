@@ -15,7 +15,7 @@ exports = scene(function() {
   spinText();
 
   // STEP 3: Destroy the text!
-  scene.onTouchOnce(function() {
+  scene.screen.onDown(function() {
     effects.explode(myText);
     myText.destroy();
     scene.gameOver();
