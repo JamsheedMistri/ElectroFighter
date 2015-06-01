@@ -3,7 +3,7 @@
   "appID": "e2ce307d0bd347118b5934c775ad8b41",
   "dependencies": {
     "devkit-core": "git@github.com:gameclosure/devkit-core.git#refactor-simulator-connection",
-    "devkit-scene": "git@github.com:gameclosure/devkit-scene.git#205beb3b7b00815adef0522946aa4775362cd902"
+    "devkit-scene": "git@github.com:gameclosure/devkit-scene.git#3f280269ac7eb8dcdf322ac66ee2347129760935"
   },
   "shortName": "templatescene",
   "studio": {
