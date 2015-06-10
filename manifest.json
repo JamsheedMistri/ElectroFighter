@@ -2,8 +2,8 @@
   "android": {},
   "appID": "e2ce307d0bd347118b5934c775ad8b41",
   "dependencies": {
-    "devkit-core": "git@github.com:gameclosure/devkit-core.git#refactor-simulator-connection",
-    "devkit-scene": "git@github.com:gameclosure/devkit-scene.git#3f280269ac7eb8dcdf322ac66ee2347129760935"
+    "devkit-core": "git@github.com:gameclosure/devkit-core.git#ee462077c22ee82c6edf1d37c16348b813f0e4be",
+    "devkit-scene": "git@github.com:gameclosure/devkit-scene.git#f4314783905957c5cccaf42c98346a152e96c6eb"
   },
   "shortName": "templatescene",
   "studio": {
