@@ -1,5 +1,6 @@
 {
   "android": {},
+  "ios": {},
   "appID": "e2ce307d0bd347118b5934c775ad8b41",
   "dependencies": {
     "devkit-core": "git@github.com:gameclosure/devkit-core.git#ee462077c22ee82c6edf1d37c16348b813f0e4be",
