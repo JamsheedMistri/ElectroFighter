@@ -3,7 +3,7 @@
   "appID": "e2ce307d0bd347118b5934c775ad8b41",
   "dependencies": {
     "devkit-core": "git@github.com:gameclosure/devkit-scene.git#ee462077c22ee82c6edf1d37c16348b813f0e4be",
-    "devkit-scene": "git@github.com:gameclosure/devkit-scene.git#f4314783905957c5cccaf42c98346a152e96c6eb"
+    "devkit-scene": "git@github.com:gameclosure/devkit-scene.git#f47983add7f647e8c58dce5aa81050eef096a758"
   },
   "ios": {},
   "shortName": "templatescene",
