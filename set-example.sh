@@ -4,9 +4,14 @@ DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 APP_FILE="$DIR/src/Application.js"
 EXAMPLE_DIR="$DIR/modules/devkit-scene/examples"
 
+echo_available () {
+  echo "Try one of these:" `ls $EXAMPLE_DIR | sed -e 's/\..*$//' | xargs`
+}
+
 # Check args
 if [ $# -eq 0 ]; then
   echo "Usage: set-example.sh <example-name>"
+  echo_available
   exit 1
 fi
 
@@ -27,7 +32,7 @@ fi
 NEW_EXAMPLE="$EXAMPLE_DIR/$1.js"
 if [ ! -f "$NEW_EXAMPLE" ]; then
   echo "Could not find example at: $NEW_EXAMPLE"
-  echo "Try one of these:" `ls $EXAMPLE_DIR | sed -e 's/\..*$//' | xargs`
+  echo_available
   exit 3
 fi
 
