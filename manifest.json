@@ -1,21 +1,42 @@
 {
-  "android": {},
-  "appID": "e2ce307d0bd347118b5934c775ad8b41",
-  "dependencies": {
-    "devkit-core": "git@github.com:gameclosure/devkit-core.git#jsio-staging",
-    "devkit-scene": "git@github.com:gameclosure/devkit-scene.git#af9e4210a538d8f447984fa411314451a7e83a3c",
-    "community-art": "git@github.com:weebygames/community-art.git#c80f674a6d253dd0a563bb046b06c438b756f007"
+  "android": {
+    "icons": {
+      "120": "resources/ElectroFighter/icons/ef-icon-120.png",
+      "144": "resources/ElectroFighter/icons/ef-icon-144.png",
+      "180": "resources/ElectroFighter/icons/ef-icon-180.png",
+      "60": "resources/ElectroFighter/icons/ef-icon-60.png",
+      "72": "resources/ElectroFighter/icons/ef-icon-72.png",
+      "76": "resources/ElectroFighter/icons/ef-icon-76.png"
+    }
   },
-  "ios": {},
-  "shortName": "templatescene",
+  "appID": "436461b4779c48329080e486424cc47e",
+  "dependencies": {
+    "community-art": "git@github.com:weebygames/community-art.git#c80f674a6d253dd0a563bb046b06c438b756f007",
+    "devkit-core": "git@github.com:gameclosure/devkit-core.git#76777f3175b2a03b1ac3e50d3eb506cfd28bd343",
+    "devkit-scene": "git@github.com:gameclosure/devkit-scene.git#af9e4210a538d8f447984fa411314451a7e83a3c"
+  },
+  "ios": {
+    "icons": {
+      "120": "resources/ElectroFighter/icons/ef-icon-120.png",
+      "144": "resources/ElectroFighter/icons/ef-icon-144.png",
+      "180": "resources/ElectroFighter/icons/ef-icon-180.png",
+      "60": "resources/ElectroFighter/icons/ef-icon-60.png",
+      "72": "resources/ElectroFighter/icons/ef-icon-72.png",
+      "76": "resources/ElectroFighter/icons/ef-icon-76.png"
+    }
+  },
+  "shortName": "ElectroFighter",
+  "splash": {
+    "autoHide": true,
+    "universal": "resources/ElectroFighter/images/splash.png"
+  },
   "studio": {
-    "domain": "studio.example.com",
-    "name": "Your Studio Name",
+    "domain": "mistri.js.io",
+    "name": "ElectroFighter, LLC",
     "stagingDomain": "staging.example.com"
   },
   "supportedOrientations": [
-    "portrait",
-    "landscape"
+    "portrait"
   ],
-  "title": "templatescene"
+  "title": "ElectroFighter"
 }
